@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>The Catalog app</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Carmine Di Martino" name="author">
+	<link href="{{ url_for('static',filename='styles/style.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+	<script src="//apis.google.com/js/platform.js?onload=start"> </script>
+
+</head>
+
+<body>
+
+	<div class="page">
+
+		<div class="margin">
+
+			<header>
+				<a href="{{url_for('showCatalogs')}}"><div class="logo"></div></a>
+				<a href='{{url_for('addItem')}}'>
+				<div class="button">
+					Add item
+				</div>
+				</a>
+			</header>
+
+			<main class="content">
+					<article>

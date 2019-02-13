@@ -1,0 +1,21 @@
+    </main>
+  </article>
+
+
+      <footer>
+        {% if 'username' not in session %}
+        <p><a href="{{url_for('showLogin')}}">LOGIN</a></p>
+        {% else %}
+        <a href="{{url_for('gdisconnect')}}">LOGOUT</a></p>
+        {% endif %}
+        <p><a href="{{url_for('apiCatalogs')}}">Catalog API</a></p>
+        <p>© 2017</p>
+      </footer>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

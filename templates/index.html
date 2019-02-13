@@ -1,0 +1,21 @@
+{% include "header.html" %}
+
+{%if size_table < 1 %}
+<p>
+There's no catalog yet, you can add one by clicking on the Add catalog button.
+</p>
+
+{% else %}
+						<h3 class="box-title">Select a catalog:</h3>
+						{% for c in catalog %}
+						<a href="{{url_for('showItems', catalog_id = c.id)}}">
+						<div class="cat">
+						  {{ c.name }}
+						</div>
+						</a>
+						{% endfor %}
+{% endif %}
+<p>
+	<a href='{{url_for('addCatalog')}}' class='button'>Add catalog</a>
+</p>
+{% include "footer.html" %}

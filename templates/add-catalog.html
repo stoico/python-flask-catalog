@@ -1,0 +1,15 @@
+{% include "header.html" %}
+<div class="box">
+
+  <form action="{{url_for('addCatalog')}}" method='POST'>
+
+    <p>Catalog name:</p>
+    <input type='text' size='30' name='name' placeholder='Catalog name'>
+    <br />
+    <input type='submit' value='Add catalog'>
+  </form>
+
+  <a href='{{url_for('showCatalogs')}}' class='button cancel'>Cancel</a>
+
+</div>
+{% include "footer.html" %}

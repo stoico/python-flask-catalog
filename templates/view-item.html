@@ -1,0 +1,11 @@
+{% include "header.html" %}
+<div class="box">
+  <h3>{{ item.name }}</h3>
+  <br />
+  <p>
+    {{ item.description }}
+  </p>
+  <br />
+<a href="{{url_for('editItem', item_name = item.name, catalog_id = item.catalog_id)}}">Edit</a> | <a href="{{url_for('deleteItem', item_name = item.name, catalog_id = item.catalog_id)}}">Delete</a>
+<a style="margin-top: 5px; clear:both; float:right; font-size: 9px;" href="{{url_for('apiItem', item_id = item.id)}}">Item API</a> 
+{% include "footer.html" %}

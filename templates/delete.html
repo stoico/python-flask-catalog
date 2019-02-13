@@ -1,0 +1,13 @@
+{% include "header.html" %}
+<div class="box">
+  <h1> Are you sure you want to delete {{item_name}}? </h1>
+
+  <form action="{{ url_for('deleteItem', catalog_id = catalog_id, item_name=item_name)}}" method = 'post'>
+    <input type='submit', value = 'Delete'>
+  </form>
+
+<a href= '{{url_for('showItems', catalog_id = catalog_id)}}' class='button cancel'>Cancel</a>
+
+
+</div>
+{% include "footer.html" %}

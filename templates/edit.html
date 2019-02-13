@@ -1,0 +1,17 @@
+{% include "header.html" %}
+<div class="box">
+<form action= "{{url_for('editItem', catalog_id = catalog.id, item_name = item.name)}}" method = 'POST'>
+
+<p>Name:</p>
+<input type = 'text' size='30' name = 'name' placeholder = '{{ item.name }}'>
+<br />
+<p>Description:</p>
+<input type='text' size='70
+' name='description' placeholder='{{ item.description }}'>
+<br />
+<input type='submit' value='Edit'>
+</form>
+<a href= '{{url_for('showItems', catalog_id = catalog.id)}}' class='button cancel'>Cancel</a>
+</div>
+
+{% include "footer.html" %}

@@ -1,0 +1,21 @@
+{% include "header.html" %}
+
+<h3 class="box-title">{{ catalog.name }}</h3>
+
+<div class="box">
+  {%if size_table < 1 %}
+  <p>
+  There's no item in this catalog yet, you can add one by clicking on the Add item button.
+  </p>
+  {% endif %}
+  {% for item in items %}
+  <p>
+    <a href="{{url_for('viewItem', item_name = item.name, catalog_id = catalog.id)}}">{{ item.name }}</a>
+  </p>
+
+  {% endfor %}
+
+</div>
+
+
+{% include "footer.html" %}

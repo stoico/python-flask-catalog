@@ -1,0 +1,262 @@
+/* Eric Meyer Reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* Styling starts here */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #2d3c49;
+  background: #a3f3ff;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300;
+  }
+
+h3 {
+  font-size: 24px;s
+}
+
+.page {
+  max-width: 840px;
+  width: 100%;
+  margin: auto;
+}
+
+.margin {
+  margin: 0 15px;
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 100%;
+  color: #545454;
+  margin: 20px 0;
+}
+
+.content {
+  float: left;
+  min-height: 300px;
+  width: 100%;
+  margin: 0 auto 35px;
+  background: #cff9ff;
+  box-shadow: 0 0 30px 0 rgb(74, 176, 222);
+  border-radius: 25px;
+  padding: 30px;
+}
+
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/logo.png);
+  background-size:  60px 62px;
+  opacity: .7;
+  width: 60px;
+  height: 62px;
+}
+
+.login-logout-button {
+  float: right;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 20px 0 5px;
+}
+
+input[type=submit] {
+  margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  box-shadow: 0px 5px 0px 0px #0069b9;
+  background-color: #0789f1;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #0368b9;
+  border-color: transparent;
+  float: left;
+}
+
+.button {
+  margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  box-shadow: 0px 5px 0px 0px #0069b9;
+  background-color: #0789f1;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #0368b9;
+  float: right;
+}
+
+.button:hover {
+	background-color:#0069b9;
+  box-shadow: 0px 5px 0px 0px #002a4a;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.cancel {
+  margin-top: 38px;
+  font-size: 12px;
+  box-shadow: 0px 5px 0px 0px #810000;
+  background-color: #c70202;
+}
+
+.cancel:hover {
+  box-shadow: 0px 5px 0px 0px #810000;
+  background-color: #c70202;
+}
+.cancel:active {
+	position:relative;
+	top:1px;
+}
+
+select {
+  height: 60px;
+  font-size: 18px;
+}
+
+input {
+  height: 60px;
+  font-size: 18px;
+}
+
+textarea {
+  font-size: 18px;
+}
+
+.cat {
+  padding: 20px;
+  width: 100%;
+  font-size: 28px;
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(199, 199, 199, 0.75);
+  border-radius: 25px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.cat:hover {
+  background: #edfcff;
+}
+
+.cat a{
+  text-decoration: none;
+  color: #2d3c49
+}
+.box {
+  font-size: 16px;
+  min-height: 100px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(199, 199, 199, 0.75);
+  border-radius: 25px;
+  padding: 20px;
+  width: 100%;
+  float: left;
+}
+
+.box-image {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+}
+
+.box-title {
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.main-content {
+  clear: both;
+}
+
+.sub-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-display {
+  padding: 10px;
+}
+
+.sub-content-title {
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 25px 0 0 0;
+  flex: 1;
+}
+
+.line-break {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+
+
+@media screen and (min-width: 1000px){
+  .my-name {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .my-description {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+}
+
+
+
+@media screen and (max-width: 650px){
+  .logo {
+    float: left;
+    background-image: url(../img/logo.png);
+    background-size:  40px 40px;
+    width: 40px;
+    height: 40px;
+    margin: 18px 0 0 20px;
+  }
+}
