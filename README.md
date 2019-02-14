@@ -2,7 +2,7 @@
 
 ## Demo
 
-http://34.228.221.76/
+http://34.228.221.76.xip.io
 
 ## Description
 
