@@ -113,12 +113,10 @@ input[type=submit] {
 
 .button {
   margin-top: 25px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  box-shadow: 0px 5px 0px 0px #0069b9;
-  background-color: #0789f1;
+  background-image: linear-gradient(#a1c4fd 0%, #82b1ff 100%);
+  box-shadow: 0px 5px 0px 0px #002a4a;
   border-radius: 28px;
-  display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-size: 18px;
@@ -129,12 +127,12 @@ input[type=submit] {
 }
 
 .button:hover {
-	background-color:#0069b9;
+  background-color: #0069b9;
   box-shadow: 0px 5px 0px 0px #002a4a;
 }
 .button:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .cancel {
