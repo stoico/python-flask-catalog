@@ -154,6 +154,7 @@ body {
   font-family: "Custom", Arial, sans-serif;
   color: #2f2f2f;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-attachment: fixed;
 }
 
 h1,
