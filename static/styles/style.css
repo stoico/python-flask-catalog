@@ -136,7 +136,7 @@ table {
 
 @font-face {
   font-family: "Custom";
-  src: url("./static/font.otf");
+  src: url("../fonts/font.otf");
   font-weight: bold;
 }
 
