@@ -21,10 +21,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  height: 100%;
+  margin: 0;
+  font-family: "Custom", Arial, sans-serif;
   color: #2d3c49;
-  background: #a3f3ff;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   }
 
 h1,
