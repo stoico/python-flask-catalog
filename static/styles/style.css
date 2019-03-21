@@ -331,8 +331,7 @@ textarea {
 }
 
 .box-title {
-  font-family: "Custom Extrabold";
-  color: grey;
+  color: #545454;
   padding: 25px;
   text-align: center;
   width: 100%;
