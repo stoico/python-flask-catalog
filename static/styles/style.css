@@ -147,7 +147,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Custom", Arial, sans-serif;
-  color: #2d3c49;
+  color: #2f2f2f;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
@@ -164,7 +164,7 @@ h3 {
 }
 
 a {
-  color: #545454;
+  color: #2f2f2f;
 }
 
 .page {
