@@ -66,12 +66,11 @@ header {
   min-height: 300px;
   width: 100%;
   margin: 0 auto 35px;
-  background: #cff9ff;
-  box-shadow: 0 0 30px 0 rgb(74, 176, 222);
+  background: #fffffff5;
+  box-shadow: 0 0 120px -25px rgb(209, 59, 217);
   border-radius: 25px;
   padding: 30px;
 }
-
 
 .logo {
   margin-left: auto;
@@ -113,10 +112,12 @@ input[type=submit] {
 
 .button {
   margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  background-image: linear-gradient(#a1c4fd 0%, #82b1ff 100%);
-  box-shadow: 0px 5px 0px 0px #002a4a;
+  box-shadow: 0px 5px 0px 0px #0069b9;
+  background-color: #0789f1;
   border-radius: 28px;
+  display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-size: 18px;
@@ -127,12 +128,12 @@ input[type=submit] {
 }
 
 .button:hover {
-  background-color: #0069b9;
+	background-color:#0069b9;
   box-shadow: 0px 5px 0px 0px #002a4a;
 }
 .button:active {
-  position: relative;
-  top: 1px;
+	position:relative;
+	top:1px;
 }
 
 .cancel {
