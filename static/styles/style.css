@@ -238,6 +238,7 @@ input[type="submit"] {
 }
 
 .button {
+  font-family: "Custom Extrabold";
   margin-top: 25px;
   font-weight: 300;
   background-image: linear-gradient(#5595fe 0%, #2a66c9 100%);
@@ -330,6 +331,7 @@ textarea {
 }
 
 .box-title {
+  font-family: "Custom Extrabold";
   color: grey;
   padding: 25px;
   text-align: center;
