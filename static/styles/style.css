@@ -163,6 +163,10 @@ h3 {
   font-size: 24px;
 }
 
+a {
+  color: #545454;
+}
+
 .page {
   max-width: 840px;
   width: 100%;
